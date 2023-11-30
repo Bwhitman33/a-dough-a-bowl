@@ -127,7 +127,20 @@ aside li {
 * components/Header
 * --------------------------------------------------
 */
-.header {
+div.header-top{
+  display:flex;
+  flex-direction:row;
+  align-self: end;
+}
+
+div.header-title {
+  width: 100%;
+  height: 50px;
+  background-color:rgba(255, 217, 0, 0.479);
+  
+}
+
+header.header {
   align-items: center;
   background: #fff;
   display: flex;
@@ -136,6 +149,7 @@ aside li {
   position: sticky;
   top: 0;
   z-index: 1;
+  flex-direction: column;
 }
 
 .header-menu-mobile-toggle {
