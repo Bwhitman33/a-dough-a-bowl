@@ -127,17 +127,22 @@ aside li {
 * components/Header
 * --------------------------------------------------
 */
-div.header-top{
-  display:flex;
-  flex-direction:row;
+div.header-top {
+  display: flex;
+  flex-direction: row;
   align-self: end;
 }
 
 div.header-title {
   width: 100%;
-  height: 50px;
-  background-color:rgba(255, 217, 0, 0.479);
-  
+  height: 300px;
+  background-color: rgba(255, 217, 0, 0.479);
+  text-align: center;
+}
+
+div.header-title strong {
+  position: absolute;
+  top: 50%;
 }
 
 header.header {
