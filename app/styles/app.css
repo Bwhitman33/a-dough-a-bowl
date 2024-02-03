@@ -8,6 +8,17 @@
   --color-light: #fff;
 }
 
+@font-face {
+  font-family: 'Happy_Christmas';
+  src: url('../assets/Happy_Christmas.woff');
+  font-style: normal;
+}
+
+.headerFont {
+  font-family: 'Happy_Christmas';
+  font-size: 1.75em;
+}
+
 img {
   border-radius: 4px;
 }
@@ -157,11 +168,11 @@ header.header {
   flex-direction: column;
 }
 
-.header-menu-mobile-toggle {
-  @media (min-width: 48em) {
+ .header-menu-mobile-toggle {
+
     display: none;
-  }
-}
+
+} 
 
 .header-menu-mobile {
   display: flex;

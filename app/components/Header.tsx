@@ -15,7 +15,7 @@ export function Header({header, isLoggedIn, cart}: HeaderProps) {
       <div className="header-top">
         <HeaderCtas isLoggedIn={isLoggedIn} cart={cart} />
       </div>
-      <div className='header-title'>
+      <div className='header-title headerFont'>
         <NavLink prefetch="intent" to="/" style={activeLinkStyle} end>
           <strong>{shop.name}</strong>
         </NavLink>
